@@ -1,0 +1,128 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Girassol&display=swap');
+
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    background-color: #41060D;
+}/*#efb548*/
+
+#sec-titulo{
+    background-image: linear-gradient(to bottom, #C78B1B, #efb548 10%, #C78B1B );
+}
+
+#subtitulo{
+    font-family: 'alfa slab one',Arial, Helvetica, sans-serif;
+    text-align: center;
+    padding-bottom: 15px;
+}
+
+ul{
+    color: white;
+    text-align: center;
+
+}
+button{
+    background-color: transparent;
+    border: none;
+    width: 100px;
+    height: 25px;
+}
+button:hover{
+    background-color: #eaaa34;
+    transition: 0.2s;
+}
+.nav{
+    font-family: 'alfa slab one',Arial, Helvetica, sans-serif;
+    display: inline-block;    
+}
+
+ol{
+    display: inline-block;
+    margin-left: 30px;
+}
+
+a:hover,li:hover{
+    text-decoration: underline;
+}
+
+ol li::marker{
+    color: red;
+}
+
+main{
+    display: flex;
+    justify-content: center;
+}
+
+#pagina-principal{
+    width: 85%;
+    background-color: white;
+}
+
+h1{
+    text-align: center;
+    padding: 3px;
+    font-family: 'alfa slab one',Arial, Helvetica, sans-serif;  
+}
+
+h2{
+    background-color: #C78B1B;
+    text-indent: 5px;
+
+}
+
+a{
+    text-decoration: none;
+    font-family: 'alfa slab one';
+}
+
+p{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 0.9em;
+    padding: 5px;
+    text-align: justify;
+    margin-top: 10px;
+}
+
+
+#img001,#img002,#img003,#img004{
+   width: 100%;
+   height: 300px;
+}
+
+footer{
+    background-color: black;
+}
+
+div{
+    display: flex;
+    width: 100%;
+}
+
+.footerul{
+    gap: 5px;
+    list-style: none;
+    display: flex;
+    justify-content: right;
+}
+
+.social{
+    width: 35px;
+    height: 35px;
+    background-color: white;
+}
+
+.footertxt{
+    display: inline-block;
+    text-align: center;
+    width: 77%;
+    color: white;
+    padding: 0px;
+    margin: 0px;
+}
+
