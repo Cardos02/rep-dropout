@@ -101,6 +101,7 @@ footer{
 
 div{
     display: flex;
+    align-items: center;
     width: 100%;
 }
 
@@ -112,15 +113,15 @@ div{
 }
 
 .social{
-    width: 35px;
-    height: 35px;
+    width: 30px;
+    height: 30px;
     background-color: white;
 }
 
 .footertxt{
     display: inline-block;
     text-align: center;
-    width: 77%;
+    width: 80%;
     color: white;
     padding: 0px;
     margin: 0px;
